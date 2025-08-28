@@ -1,0 +1,148 @@
+{
+    "filename": "sample_invoice.pdf",
+    "raw_text": "INVOICE\nInvoice No: INV-2025-001\nDate: 28-Aug-2025\nBilled To:\nJohn Doe\n123 Main Street\nNew York, NY\nItems:\n1. Laptop      $1200\n2. Mouse       $25\n3. Keyboard    $75\nTotal: $1300\n",
+    "entities": [
+        {
+            "text": "28",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "John Doe",
+            "label": "PERSON",
+            "valid": null
+        },
+        {
+            "text": "123",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "Main Street",
+            "label": "FAC",
+            "valid": null
+        },
+        {
+            "text": "New York",
+            "label": "GPE",
+            "valid": null
+        },
+        {
+            "text": "NY",
+            "label": "GPE",
+            "valid": null
+        },
+        {
+            "text": "1",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "1200",
+            "label": "MONEY",
+            "valid": true
+        },
+        {
+            "text": "2",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "Mouse",
+            "label": "PERSON",
+            "valid": null
+        },
+        {
+            "text": "25",
+            "label": "MONEY",
+            "valid": true
+        },
+        {
+            "text": "3",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "75",
+            "label": "MONEY",
+            "valid": true
+        },
+        {
+            "text": "1300",
+            "label": "MONEY",
+            "valid": true
+        }
+    ],
+    "validated": [
+        {
+            "text": "28",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "John Doe",
+            "label": "PERSON",
+            "valid": null
+        },
+        {
+            "text": "123",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "Main Street",
+            "label": "FAC",
+            "valid": null
+        },
+        {
+            "text": "New York",
+            "label": "GPE",
+            "valid": null
+        },
+        {
+            "text": "NY",
+            "label": "GPE",
+            "valid": null
+        },
+        {
+            "text": "1",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "1200",
+            "label": "MONEY",
+            "valid": true
+        },
+        {
+            "text": "2",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "Mouse",
+            "label": "PERSON",
+            "valid": null
+        },
+        {
+            "text": "25",
+            "label": "MONEY",
+            "valid": true
+        },
+        {
+            "text": "3",
+            "label": "CARDINAL",
+            "valid": null
+        },
+        {
+            "text": "75",
+            "label": "MONEY",
+            "valid": true
+        },
+        {
+            "text": "1300",
+            "label": "MONEY",
+            "valid": true
+        }
+    ]
+}
